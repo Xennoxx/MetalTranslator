@@ -1,18 +1,18 @@
 ﻿//SCREEEEAAAAAAAAAAAAAAMMMMMMMMMMMMMM!!!!!
 Console.ForegroundColor = ConsoleColor.Yellow;
 Console.WriteLine("Hello! ... ");
-Console.ReadKey();
+Thread.Sleep(5000);
 Console.WriteLine("Today i will show you how you can Scream in C#! ...");
-Console.ReadKey();
+Thread.Sleep(5000);
 Console.Write("Okay... just write a little bit about you toughts: ");
 string input = Convert.ToString(Console.ReadLine());
 Console.Clear();
 
        input.ToUpper();
 Console.WriteLine("Nice ... thanks ... just give me a couple of sec's");
-Console.ReadKey();
+Thread.Sleep(5000);
 Console.WriteLine(" ... ");
-Console.ReadKey();
+Thread.Sleep(5000);
 if (input == "")
 {
     do
@@ -25,10 +25,10 @@ if (input == "")
 else
 {
     Console.WriteLine("Okay... ");
-    Console.ReadKey();
+    Thread.Sleep(5000);
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine(input + "!");
     Console.ForegroundColor = ConsoleColor.Yellow;
     Console.WriteLine("Thankys <3");
-    Console.ReadKey();
+    Thread.Sleep(5000);
 }
